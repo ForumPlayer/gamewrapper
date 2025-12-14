@@ -9,7 +9,7 @@ use Env qw(
 );
 
 sub import { Load }
-sub unimport { Unloadoad }
+sub unimport { Unload }
 
 sub Load {
     $__GLX_VENDOR_LIBRARY_NAME   = "mesa";
